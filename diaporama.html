@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Diaporama</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<center>
+	<div id="container">
+		<img id="img" height="100%" width="100%" src="images/1.jpg">
+	</div>
+	 <br>
+
+	<button id='button_pp' value="play" onclick="playPause()" class="button">
+		<img src="SVGs/play-solid.svg" class="iconsSVG">
+	</button>
+
+	<button onclick="stop()" class="button">
+		<img src="SVGs/stop-solid.svg" class="iconsSVG">
+	</button>
+
+	<button onclick="left()" class="button">
+		<img src="SVGs/angle-left-solid.svg" class="iconsSVG">
+	</button>
+
+	<button onclick="right()" class="button">
+		<img src="SVGs/angle-right-solid.svg" class="iconsSVG">
+	</button>
+	</center>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="diapo_js.js"></script>
+	
+
+</body>
+</html>
